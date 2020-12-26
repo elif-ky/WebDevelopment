@@ -1,0 +1,261 @@
+body{
+  background-color:  #160C6E;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-control{
+  background-color: #160C6E;
+}
+.icon .fas{
+  color: white;
+}
+.acik-mavi{
+  background: #3F21D0;
+  width: 1100px;
+  height: 1100px;
+  border-radius:50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -550px;
+  margin-top: -550px;
+  z-index: 1;
+​
+}
+.turuncu{
+  background:  linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  width: 650px;
+  height: 650px;
+  border-radius:50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -325px;
+  margin-top: -325px;
+  z-index: 2;
+}
+.image img{
+  width: 750px;
+  height: 750px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -375px;
+  margin-top: -375px;
+  z-index: 3;
+}
+
+.baloncuk-1{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 80px;
+  right: 450px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.baloncuk-2{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  bottom: 80px;
+  right: 400px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.baloncuk-3{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  bottom: 100px;
+  right: 680px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 4;
+}
+.baloncuk-4{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 400px;
+  left: 570px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 4;
+}
+.baloncuk-5{
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 80px;
+  right: 750px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 4;
+}
+.baloncuk-6{
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  bottom: 200px;
+  right: 880px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 5;
+}
+.baloncuk-7{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 100px;
+  left: 505px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 5;
+}
+.baloncuk-8{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 100px;
+  left: 490px;
+  border: 2px solid white;
+  border-radius: 50%;
+  z-index: 5;
+}
+/*yazılar baslangıç*/
+.yazilar nav{
+  position: absolute;
+  top: 38%;
+  left: 14%;
+}
+.disabled{
+  font-weight: 700;
+  font-size: 24px;
+}
+.ince-yazi{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.sag-yazi{
+  color: white;
+  text-align: right;
+  position: absolute;
+  top: 33%;
+  right: 15%;
+  z-index: 8;
+}
+.sag-yazi h5{
+  font-weight: 900;
+  font-size: 7vw;
+}
+.sag-yazi p{
+  font-weight: 700;
+  font-size: 16px;
+}
+.btn{
+  background:  linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/*yazılar bitiş*/
+
+
+.twitter{
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+.facebook{
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .baloncuklar {display: none;}
+}
+@media only screen and (max-width: 600px) {
+  .ust-kisim form {display: none;}
+}
+@media only screen and (max-width: 600px) {
+  .image img {
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    z-index: -1;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .turuncu {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+      z-index: -2;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .acik-mavi {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-color: #3F21D0;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    z-index: -3;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sag-yazi{
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    z-index: 5;
+  }
+  .sag-yazi h5{
+    font-weight: 900;
+    font-size: 60px;
+  }
+  .sag-yazi p{
+  font-weight: 700;
+  font-size: 8px;
+  }
+  .btn{
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  font-size: 10px;
+  font-weight: 700;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .yazilar nav{
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    z-index: 7;
+  }
+  .ince-yazi{
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .disabled{
+    font-weight: 700;
+    font-size: 18px;
+  }

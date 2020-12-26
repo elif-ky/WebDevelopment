@@ -1,0 +1,38 @@
+.mavi {
+  color: #1f3c88;
+}
+
+body {
+  margin: 2% 10%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.Hakkımda {
+  background-color: #ffa5a5;
+  color: black;
+  padding: 2% 2%;
+}
+
+.mavi {
+  color: #1f3c88;
+}
+
+.Hobilerim {
+  background-color: #ffd57e;
+  color: black;
+  padding: 2% 2%;
+}
+
+.mavi {
+  color: #1f3c88;
+}
+
+.Bildiğim.Diller {
+  background-color: #28df99;
+  color: black;
+  padding: 2% 2%;
+}

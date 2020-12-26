@@ -1,0 +1,79 @@
+.arkaplan {
+  background-color: #F1E8E6;
+  float: left;
+}
+
+.kutu1 {
+  border-radius: 1.5rem;
+  width: 500px;
+  height: 100px;
+  font-weight: bold;
+  text-align: justify;
+  padding: 10px;
+}
+
+.kutu1-içerik{
+  margin: 20px;
+}
+.kutu1-yazı {
+  margin: 50px 15px 30px 10px;
+}
+
+.kutu2 {
+  width: 350px;
+  height: 150px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.btn1 {
+  background-color: #F1E8E6;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+}
+
+.btn2 {
+  background-color:#F1E8E6;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+}
+
+.btn3 {
+  background-color: #F1E8E6;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+}
+button:hover{
+  background-color: #F55951;
+  border-color: #F55951;
+  color: white;
+}
+.yazı {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.kutu3 {
+  background-color: #F55951;
+  border-radius: 1.5rem;
+  width: 400px;
+  height: 200px;
+  padding: 1.5rem;
+}
+h5{
+  margin-bottom: 20px;
+}
+.button2 {
+  background-color: #F55951;
+  border-radius: 1rem;
+  height: 55px;
+  padding: 0.75rem;
+}

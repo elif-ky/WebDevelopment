@@ -1,0 +1,56 @@
+body{
+  background-color: #FAD961;
+  font-family: 'Poppins', sans-serif;
+  color : #1B1B1B;
+}
+.kose-yazi{
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+.ilkyazi{
+  font-weight: 600;
+}
+.buyukyazi{
+font-weight: 600;
+font-size: 70px;
+}
+.yazi{
+  font-weight: 300;
+}
+.tablo{
+  width:22rem;
+  height: 3rem;
+   border:2.5px solid;
+}
+.orta-yazi{
+margin-left: 300px;
+margin-top:150px;
+}
+.alt-orta-yazi{
+font-weight: 700;
+}
+.resim-kose img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 57%;
+  height: 55%;
+  z-index: -1;
+}
+.altkisim{
+padding-top: 100px;
+}
+.tablo-yazı1{
+  font-weight: 600;
+  font-size: 20px;
+}
+.tablo-yazı2{
+font-weight: 600;
+border-left-color: #6C757D !important;
+}
+.dropdown-menu{
+  background-color:#FFDADA;
+}
+.dropdown-item:hover{
+  background-color: #FFF3E2;
+}

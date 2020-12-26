@@ -1,0 +1,195 @@
+body {
+  position: relative;
+  color: #6C757D;
+
+}
+
+.arkaplan {
+  background-color: #BD5D38
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18rem;
+    height: 100vh;
+  }
+.navbar h5{
+  display: none;
+}
+  .yazilar {
+    padding-left: 20rem;
+    padding-top: 20rem;
+  }
+}
+
+@media (max-width: 992px) {
+  nav a .profil {
+    display: none !important;
+  }
+
+  .yazilar {
+    padding-left: 2rem;
+    padding-top: 5rem;
+  }
+}
+.collapse ul li a{
+  color: #FFBA93 !important;
+    font-weight: 700;
+    font-size: 1rem ;
+}
+.collapse ul li a:hover{
+  color: white !important;
+}
+.profil {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid #D68060;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.turuncu-yazi {
+  padding-top: 140px;
+}
+
+.soyisim {
+  color: #D68060;
+}
+
+.about h1 {
+  color: #212529;
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+.about p{
+  font-size: 1.25rem;
+  font-weight: 400;
+font-family: 'Saira Extra Condensed', sans-serif
+}
+.adres h5{
+  font-size: 1.75rem;
+  font-weight: 500;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.adres a {
+  color: #D68060;
+}
+.adres a:hover{
+  color: #6C757D;
+}
+
+.sosyal-medya a {
+  background-color: #212529;
+  border-radius: 50%;
+  color: white;
+}
+
+.sosyal-medya a:hover{
+  background-color: #D68060;
+}
+.about{
+  margin-bottom: 20%;
+}
+/*ilk sayfa bitiş*/
+
+/*ikinci sayfa başlangıç*/
+.experience h1{
+  color: #212529;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 5vw;
+}
+.tarih{
+  color:#D68060;
+  margin-top: 3rem;
+}
+.sayfa2-alt-bosluk {
+  margin-bottom: 5vw;
+}
+/*ikinci sayfa bitiş*/
+
+/*ucuncu sayfa başlangıç*/
+
+.education h1{
+  color: #212529;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 12vw;
+}
+.siyah-yazi{
+  color: #212529;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.yazi-tipi{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.sayfa3-alt-bosluk{
+  margin-bottom: 12vw;
+}
+/*ucuncu sayfa bitiş*/
+
+/*dorduncu sayfa baslangıç*/
+.skills h1{
+  color: #212529;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 12vw;
+}
+.icon{
+  font-size: 2.75rem;
+  font-weight: 400;
+
+}
+.sayfa4-alt-bosluk{
+  margin-bottom: 12vw;
+}
+/*dorduncu sayfa bitiş*/
+
+/*besinci sayfa baslangıç*/
+
+.interests h1{
+  color: #212529;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 17vw;
+  margin-bottom: 2vw;
+}
+.bir{
+  font-weight:normal;
+}
+.sayfa5-alt-bosluk{
+  margin-bottom: 17vw;
+}
+/* besinci sayfa bitiş*/
+
+/* altıncı sayfa baslangıç*/
+
+.awards h1{
+  color: #212529;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 17vw;
+  margin-bottom: 2.5vw;
+}
+.sayfa6-alt-bosluk{
+  margin-bottom: 17vw;
+}
+
+/* altıncı sayfa bitiş*/

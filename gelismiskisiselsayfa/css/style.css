@@ -1,0 +1,36 @@
+body {
+  margin: 2% 10%;
+}
+.kirmizi {
+  color: red;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+.akif-ersoyun-hayatı {
+  border: 3px solid red;
+  padding: 2%;
+  background-color: #efbbcf;
+}
+.akif-ersoyun-hayatı-yazısı {
+  padding-left: 2rem;
+}
+.mehmet-akif-ersoyun-eserleri{
+  margin: 2% 0;
+  border: 3px dashed red;
+  padding: 2%;
+  background-color: #f9c0c0;
+}
+.mehmet-akif-ersoyun-eserleri-yazısı{
+  padding-right: 2rem;
+}
+.istiklal-marşı{
+  border: 3px solid red;
+  padding: 2%;
+  background-color: #efbbcf;
+}
+.istiklal-marşı-yazısı{
+  padding-left: 2rem;
+}

@@ -1,0 +1,88 @@
+.beyaz-kisim span {
+  font-weight: bold;
+}
+
+.beyaz-kisim {
+  padding-top: 1.5rem;
+}
+
+.fiyatlandirma {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.kutu-1-üst-kisim {
+  background-color: #dc3545;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.buton-1 .btn {
+  background-color: #dc3545;
+  margin-bottom: 2rem;
+}
+
+.kutu-2-üst-kisim {
+  background-color: #007bff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.buton-2 .btn {
+  background-color: #007bff;
+  margin-bottom: 2rem;
+}
+
+.kutu-3-üst-kisim {
+  background-color: #20c997;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.buton-3 .btn {
+  background-color: #20c997;
+  margin-bottom: 2rem;
+}
+
+.kutu-4-üst-kisim {
+  background-color: #ffc107;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.buton-4 .btn {
+  background-color: #ffc107;
+  margin-bottom: 2rem;
+}
+
+.beyaz-kisim {
+  background-color: white;
+}
+
+@media (min width:768) {
+  .resim {
+    width: 50%;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .resim {
+    margin-top: 30px;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+
+  @media (min-width: 992px) {
+    .r-l-fluid-padding {
+      padding: 3% 15%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .r-l-fluid-padding {
+      padding: 3% 3%;
+    }
+  }

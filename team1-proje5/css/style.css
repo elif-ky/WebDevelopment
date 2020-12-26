@@ -1,0 +1,83 @@
+.sticky-top{
+  background-color:  #343a40;
+}
+.navbar-nav a:hover{ /*unutma*/
+  background-color: #20C997;
+  border-radius: 0.7rem;
+}
+
+.profil .container-fluid{
+  background-color: #20c997;
+}
+.profil .rounded-circle{
+  width: 400px;
+  height: 200px;
+}
+.profil-yazi{
+  font-size: 3.5vw;
+}
+.cizgi-1{
+  border-bottom: 4px solid white;
+  width: 8%;
+}
+.cizgi-2{
+  border-bottom: 4px solid white;
+  width: 8%;
+}
+.ikinci-kisim h1{
+  color: #343a40;
+}
+.ikinci-kisim i{
+  color: #343a40;
+}
+.cizgi-3{
+  border-bottom: 4px solid #343a40;
+  width: 8%;
+}
+.cizgi-4{
+  border-bottom: 4px solid #343a40;
+  width: 8%;
+}
+.ikinci-kisim img{
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  border-radius: 1rem;
+}
+.ucuncu-kisim{
+  background-color: #20c997;
+}
+
+.card{
+  background-color: #20c997;
+}
+.card-text{
+  font-size: 1.15rem;
+}
+
+.card-aralik1{
+  padding-left: 90px;
+}
+.card-aralik2{
+  padding-left: 55px;
+}
+.card-aralik3{
+  padding-right: 90px;
+}
+.besinci-kisim{
+  background-color:  #20c997;
+}
+.dorduncu-kisim .btn{
+  background-color:  #20c997;
+}
+.dorduncu-kisim .btn:hover{
+  background-color:  #343a40;
+  color: white;
+}
+.altinci-kisim{
+  background-color: #343a40;
+
+}
+.border{
+  border-radius: 50%;
+}
